@@ -60,7 +60,7 @@ class UserTable extends React.Component{
                     <h1 className="text-justify">Current Users</h1>
                 </div>
                 <button className="btn btn-info btn-md" onClick={this.handleRefresh}>Refresh</button>
-                <table id='users' class="table">
+                <table id='users' className="table">
                     <tbody>
                         <tr>
                             <th scope="col">USERNAME</th>
